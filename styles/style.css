@@ -1,0 +1,115 @@
+html, body {
+  font-family: 'Barlow', sans-serif;
+  /* font-family: 'Fraunces', serif; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  /* background-position: center; */
+  background-size: 100% 100%;
+}
+
+.header-section h1 {
+  font-size: 3em;
+  font-weight: 900;
+  color: white;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4.5rem 0 0;
+  letter-spacing: 0.2em;
+}
+
+.arrow-down-icon {
+  margin: 2.75em auto 0; /* Problem-1 */
+  height: 6em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1.25em 0;
+}
+
+header .logo-section {
+  padding-top: 0.5em;
+}
+
+header .sections-list {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  margin: 0;
+}
+
+.sections-list li {
+  padding: 0 1em;
+  padding: 0.5em 1.5em;
+}
+
+.sections-list li.active-page {
+  cursor: pointer;
+  font-family: 'Fraunces', serif;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 35px;
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+
+.transform-brand-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transform-brand-section > div {
+  width: 50%; /* Problem-2 */
+  box-sizing: border-box;
+}
+
+.transform-brand-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6em;
+}
+
+.section-heading {
+  font-family: 'Fraunces', serif;
+  margin: 0;
+  font-size: 2.75em;
+}
+
+.section-desc {
+  color: hsl(210, 4%, 67%);
+  margin: 2em 2em 2em 0;
+  line-height: 1.5em;
+}
+
+.learn-more-link {
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: black;
+  text-decoration: none;
+}
